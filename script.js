@@ -13,4 +13,4 @@ document.addEventListener("DOMContentLoaded", () => {
     footer.innerHTML = `<p>Page loaded on : ${new Date().toLocaleDateString()}</p>`;
 
     document.body.appendChild(footer);
-})
+});
